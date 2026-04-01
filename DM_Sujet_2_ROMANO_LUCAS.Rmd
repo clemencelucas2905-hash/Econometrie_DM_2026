@@ -4,3 +4,28 @@ output: pdf_document
 author: Samuel ROMANO, Clémence LUCAS
 date: "2026-04-01"
 ---
+# Introduction
+Ce devoir maison porte sur l'analyse des inégalités sur le marché du travail en France, en mettant l'accent sur l'impact de l'**origine**. L'objectif est de mesurer l'effet de cette variable sur deux dimensions : la **marge intensive** (le salaire horaire) et la **marge extensive** (la probabilité d'être au chômage).
+
+# Préparation des données 
+
+## Chargement des packages
+```{r}
+library(haven) #pour interpréter les données .dta
+library(dplyr) #pour manipuler les données
+```
+
+## Chargement des données
+```{r}
+df <- read_dta("DM_Subject_2_Data.dta") #upload le fichier avant, cf carré en bas à droite
+```
+
+## Construction de la variable origine
+```{r}
+
+```
+
+
+
+
+
