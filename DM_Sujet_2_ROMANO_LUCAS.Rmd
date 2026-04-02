@@ -20,10 +20,19 @@ library(dplyr) #pour manipuler les données
 df <- read_dta("DM_Subject_2_Data.dta") #upload le fichier avant, cf carré en bas à droite
 ```
 
-## Construction de la variable origine
-```{r}
+# 1. Marge intensive (salaire net horaire)
 
+## Question 1 
+Champ étudié : individus actifs occupés pour le dernier trimestre 
+```{r}
+df_act_occup_6 <- df[df$t == 6 & df$acteu == 1, ]
 ```
+
+Dans un premier temps, on assimile la variable origine à l'indicatrice d'avoir une origine française ou non. 
+
+Variables d'intérêt : 
+
+
 
 
 
