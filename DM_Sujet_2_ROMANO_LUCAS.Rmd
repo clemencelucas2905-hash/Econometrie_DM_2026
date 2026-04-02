@@ -9,6 +9,11 @@ Ce devoir maison porte sur l'analyse des inégalités sur le marché du travail 
 
 # Préparation des données 
 
+```{r}
+hhjejehj
+```
+
+
 ## Chargement des packages
 ```{r}
 library(haven) #pour interpréter les données .dta
